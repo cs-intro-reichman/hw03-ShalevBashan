@@ -37,8 +37,6 @@ public class LoanCalc {
 			l = endBalance(l, r, n, p);
 			if (l > e){
 				p += e;
-			} else if (l < -e) {
-				p -= e/2;
 			} else {
 				b = true;
 			}
