@@ -32,7 +32,7 @@ public class Calendar1 {
 			}
 	 		advance();
         }
-	 	System.out.println ("Druing the 20th century, " + cnt + " sundays fell on the first day of the month");
+	 	System.out.println ("Druing the 20th century, " + cnt + " Sundays fell on the first day of the month");
 	 }
 	
 
