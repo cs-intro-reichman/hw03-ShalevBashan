@@ -1,12 +1,12 @@
 
-public class lowerCase {
+public class lowercase {
     public static void main(String[] args) {  
         String str = args[0];
-        System.out.println(lowerCase(str));
+        System.out.println(lowercase(str));
     }
 
     
-    public static String lowerCase(String s) {
+    public static String lowercase(String s) {
         String lower = "";
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) <= 91 && s.charAt(i) >= 65) {
